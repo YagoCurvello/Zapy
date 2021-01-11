@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/bg_balao"
+        android:backgroundTint="@color/grey_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textNomeExibicao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nome"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageMensagemFoto"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/padrao" />
+
+        <TextView
+            android:id="@+id/textViewMensagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right|end"
+            android:textSize="18sp"
+            tools:text="Mensagem" />
+    </LinearLayout>
+
+</RelativeLayout>

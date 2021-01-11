@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "140136863070",
+    "firebase_url": "https://zapy-5cd24.firebaseio.com",
+    "project_id": "zapy-5cd24",
+    "storage_bucket": "zapy-5cd24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140136863070:android:464dd0d2cf9e17b5ec2bcf",
+        "android_client_info": {
+          "package_name": "com.yagocurvello.zapy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140136863070-h7qfihrnvtb77mpt8i4uuvpp0a0njddu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yagocurvello.zapy",
+            "certificate_hash": "b33fcb6cc501a95c6d8c6b049a7b73904f184b1d"
+          }
+        },
+        {
+          "client_id": "140136863070-ftr62pocd5tlhlr4heiimhdm0u1h2gcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOjWg5ymT_QjsLhc_bAVsd8oE44HyvUu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140136863070-ftr62pocd5tlhlr4heiimhdm0u1h2gcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
